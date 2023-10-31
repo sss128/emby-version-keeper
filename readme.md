@@ -21,5 +21,6 @@ docker run -it \
  -e TOKEN=emby中生成的apikey（infuse那个就可以） \
  -e EMBY_CONFIG_DIR=你的emby config地址 \       
  -v 你的emby_config地址:你的emby_config地址 \    #注意这三个emby_config地址是一样的
-sss128/emby-version-keeper 模式(1合并，2拆分) emby中library的目录
+sss128/emby-version-keeper 模式(1合并，2拆分) emby中library的目录，见下
 ```
+<img width="633" alt="image" src="https://github.com/sss128/emby-version-keeper/assets/149408730/6674d673-244f-4668-abaa-873bc42840c4">
