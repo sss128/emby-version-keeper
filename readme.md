@@ -21,10 +21,13 @@ bash -c "$(curl https://raw.githubusercontent.com/sss128/emby-version-keeper/mai
 bash -c "$(curl https://raw.githubusercontent.com/sss128/emby-version-keeper/main/run.sh)" -s `/emby_config_dir` `1` `/media/电影/每日更新`
 
 <h5>示例2 拆分已合并 /media/电影/每日更新</h5>
+
 bash -c "$(curl https://raw.githubusercontent.com/sss128/emby-version-keeper/main/run.sh)" -s `/emby_config_dir` `2` `/media/电影/每日更新`
 
 <h5>示例3 合并全部媒体库</h5>
+
 bash -c "$(curl https://raw.githubusercontent.com/sss128/emby-version-keeper/main/run.sh)" -s `/emby_config_dir`
 
 <h5>示例4 对多个媒体库分别合并</h5>
+
 bash -c "$(curl https://raw.githubusercontent.com/sss128/emby-version-keeper/main/run.sh)" -s `/emby_config_dir` `1` `/media/电影/每日更新` `/media/电影/4k`
